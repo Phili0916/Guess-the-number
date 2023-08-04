@@ -1,5 +1,6 @@
 import random
 
+
 #Write a function where the computer guesses your number
 def computer_guess(x):
   low = 1
@@ -19,3 +20,5 @@ def computer_guess(x):
       low = guess + 1
 
     print(f"The computer guessed your number, {guess} correctly!")
+
+computer_guess(10)

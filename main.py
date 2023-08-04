@@ -12,4 +12,3 @@ while response != secret_number:
     print("Your guess is too small! Guess again.")
   else:
     print("You have guessed wisely")
-
